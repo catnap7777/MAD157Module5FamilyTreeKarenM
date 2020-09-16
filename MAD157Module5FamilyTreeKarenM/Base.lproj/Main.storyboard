@@ -75,20 +75,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mungo.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="vlf-PJ-cak">
-                                <rect key="frame" x="20" y="247" width="374" height="414"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mungo.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="vlf-PJ-cak">
+                                <rect key="frame" x="10" y="229" width="394" height="459"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="374" id="9nB-R5-wC4"/>
-                                    <constraint firstAttribute="height" constant="414" id="WoX-hV-lss"/>
+                                    <constraint firstAttribute="width" constant="394" id="9nB-R5-wC4"/>
+                                    <constraint firstAttribute="height" constant="459" id="WoX-hV-lss"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="vlf-PJ-cak" secondAttribute="trailing" constant="20" id="32f-7K-uXJ"/>
-                            <constraint firstItem="vlf-PJ-cak" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="159" id="efc-hx-T0v"/>
-                            <constraint firstItem="vlf-PJ-cak" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="20" id="w2q-uw-zj8"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="vlf-PJ-cak" secondAttribute="trailing" constant="10" id="32f-7K-uXJ"/>
+                            <constraint firstItem="vlf-PJ-cak" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="141" id="efc-hx-T0v"/>
+                            <constraint firstItem="vlf-PJ-cak" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="10" id="w2q-uw-zj8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
@@ -96,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1114" y="538"/>
+            <point key="canvasLocation" x="1113.0434782608697" y="537.05357142857144"/>
         </scene>
         <!--Pansy Baggins-->
         <scene sceneID="LHH-5T-hbc">
@@ -106,7 +106,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pansy.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="iGD-Bc-nZk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pansy.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="iGD-Bc-nZk">
                                 <rect key="frame" x="20" y="237" width="374" height="417"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="417" id="7uK-Bz-M3U"/>
@@ -167,7 +167,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lily.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="wOU-zD-3BH">
-                                <rect key="frame" x="20" y="239" width="374" height="498"/>
+                                <rect key="frame" x="20" y="212" width="374" height="498"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="498" id="foz-Xo-PjO"/>
                                     <constraint firstAttribute="width" constant="374" id="nNE-CP-vLo"/>
@@ -177,7 +177,7 @@
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wOU-zD-3BH" firstAttribute="leading" secondItem="8Ym-bE-SI6" secondAttribute="leading" constant="20" id="0Zy-HL-O5t"/>
-                            <constraint firstItem="wOU-zD-3BH" firstAttribute="top" secondItem="8Ym-bE-SI6" secondAttribute="top" constant="151" id="2fM-dZ-Iuf"/>
+                            <constraint firstItem="wOU-zD-3BH" firstAttribute="top" secondItem="8Ym-bE-SI6" secondAttribute="top" constant="124" id="2fM-dZ-Iuf"/>
                             <constraint firstItem="8Ym-bE-SI6" firstAttribute="trailing" secondItem="wOU-zD-3BH" secondAttribute="trailing" constant="20" id="n66-cJ-Ihn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8Ym-bE-SI6"/>
@@ -265,11 +265,11 @@
         <image name="circle.grid.hex.fill" catalog="system" width="128" height="112"/>
         <image name="fb1sm.png" width="576" height="390"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
-        <image name="largo.JPG" width="165.5" height="338"/>
-        <image name="lily.JPG" width="95.5" height="318.5"/>
-        <image name="mungo.JPG" width="259.5" height="297.5"/>
-        <image name="pansy.JPG" width="192" height="323"/>
-        <image name="ponto.JPG" width="337" height="390"/>
+        <image name="largo.JPG" width="423" height="388"/>
+        <image name="lily.JPG" width="373" height="367.5"/>
+        <image name="mungo.PNG" width="422.5" height="390"/>
+        <image name="pansy.PNG" width="373.5" height="370"/>
+        <image name="ponto.JPG" width="373" height="369.5"/>
         <image name="second" width="30" height="30"/>
         <image name="smiley.fill" catalog="system" width="128" height="121"/>
     </resources>
