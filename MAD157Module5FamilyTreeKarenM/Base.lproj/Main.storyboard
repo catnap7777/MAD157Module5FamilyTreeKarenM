@@ -15,30 +15,67 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb1sm.png" translatesAutoresizingMaskIntoConstraints="NO" id="UGq-Pa-SIh">
-                                <rect key="frame" x="4" y="295.5" width="406" height="305"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="305" id="urK-w3-Nid"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fI5-Ra-IbF">
-                                <rect key="frame" x="36" y="162" width="319" height="66.5"/>
+                                <rect key="frame" x="20" y="103" width="382" height="62"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="Z4M-qx-YDl"/>
+                                    <constraint firstAttribute="width" constant="382" id="dbg-U6-nIz"/>
+                                </constraints>
                                 <attributedString key="attributedText">
-                                    <fragment content="LOTR - Baggins Family Tree">
+                                    <fragment content="Lord of the Rings">
                                         <attributes>
-                                            <color key="NSColor" red="0.070905337337453522" green="0.19207434266182322" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="24" name="Noteworthy-Light"/>
+                                            <color key="NSColor" red="0.96261291568648621" green="0.98141857387932552" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="36" name="Noteworthy-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KPe-eW-mKb">
+                                <rect key="frame" x="32" y="173" width="358" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="hsV-Ua-kzM"/>
+                                    <constraint firstAttribute="width" constant="358" id="jQu-Yv-DQp"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Baggins Family Tree">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37952921217842284" green="0.73761888177093571" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="30" name="Noteworthy-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb1sm.png" translatesAutoresizingMaskIntoConstraints="NO" id="UGq-Pa-SIh">
+                                <rect key="frame" x="4" y="239" width="406" height="305"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="305" id="CYI-Ps-liB"/>
+                                    <constraint firstAttribute="width" constant="406" id="fIb-tD-wA1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click button for more family branch details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiq-5F-U1i">
+                                <rect key="frame" x="16" y="564" width="374" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="8Mn-gj-Pge"/>
+                                    <constraint firstAttribute="height" constant="41" id="kj6-YQ-7sN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3r-m5-w60">
-                                <rect key="frame" x="114" y="678.5" width="186" height="68.5"/>
+                                <rect key="frame" x="137" y="630" width="133" height="58"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="cqd-t7-HyI"/>
+                                    <constraint firstAttribute="width" constant="133" id="en4-8u-BSx"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                <state key="normal" title="More"/>
+                                <state key="normal" title="Branch Info"/>
                                 <connections>
                                     <action selector="buttonClicked:" destination="9pv-A4-QxB" eventType="touchUpInside" id="OTQ-Yd-y2A"/>
                                     <segue destination="hBr-6d-3mj" kind="show" id="kAU-c6-STs"/>
@@ -47,17 +84,21 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="UGq-Pa-SIh" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="2bR-yQ-0EQ"/>
-                            <constraint firstItem="O3r-m5-w60" firstAttribute="top" secondItem="UGq-Pa-SIh" secondAttribute="bottom" constant="78" id="GZh-KJ-aXo"/>
-                            <constraint firstItem="UGq-Pa-SIh" firstAttribute="top" secondItem="fI5-Ra-IbF" secondAttribute="bottom" constant="67" id="Hm4-5V-JJp"/>
-                            <constraint firstItem="UGq-Pa-SIh" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="IZj-li-vUm"/>
-                            <constraint firstItem="fI5-Ra-IbF" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="74" id="M7K-jn-OjD"/>
-                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="O3r-m5-w60" secondAttribute="bottom" constant="115" id="SBz-vq-hiK"/>
-                            <constraint firstItem="fI5-Ra-IbF" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="36" id="VjU-Bd-O7k"/>
-                            <constraint firstItem="UGq-Pa-SIh" firstAttribute="centerX" secondItem="O3r-m5-w60" secondAttribute="centerX" id="eZA-60-jcD"/>
-                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="fI5-Ra-IbF" secondAttribute="trailing" constant="59" id="nIk-px-3qU"/>
-                            <constraint firstItem="O3r-m5-w60" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="114" id="w2E-6t-RTi"/>
-                            <constraint firstItem="UGq-Pa-SIh" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="4" id="zrt-4P-VRC"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="UGq-Pa-SIh" secondAttribute="trailing" constant="4" id="5jF-ll-1MR"/>
+                            <constraint firstItem="fI5-Ra-IbF" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="20" id="78G-uk-doH"/>
+                            <constraint firstItem="O3r-m5-w60" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="137" id="GjF-WN-COq"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="O3r-m5-w60" secondAttribute="trailing" constant="144" id="KBs-wa-ZoR"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="fI5-Ra-IbF" secondAttribute="trailing" constant="12" id="NZa-Lp-WtH"/>
+                            <constraint firstItem="KPe-eW-mKb" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="32" id="UBs-TE-ljy"/>
+                            <constraint firstItem="qiq-5F-U1i" firstAttribute="top" secondItem="UGq-Pa-SIh" secondAttribute="bottom" constant="20" id="Ufn-sx-j2Z"/>
+                            <constraint firstItem="UGq-Pa-SIh" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="4" id="YrT-aF-XFY"/>
+                            <constraint firstItem="fI5-Ra-IbF" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="15" id="ZDE-hu-XBe"/>
+                            <constraint firstItem="O3r-m5-w60" firstAttribute="top" secondItem="qiq-5F-U1i" secondAttribute="bottom" constant="25" id="msV-56-B1E"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="KPe-eW-mKb" secondAttribute="trailing" constant="24" id="qTI-jF-zJ0"/>
+                            <constraint firstItem="qiq-5F-U1i" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="16" id="rzE-78-ngf"/>
+                            <constraint firstItem="KPe-eW-mKb" firstAttribute="top" secondItem="fI5-Ra-IbF" secondAttribute="bottom" constant="8" id="sxX-l6-pJo"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="qiq-5F-U1i" secondAttribute="trailing" constant="24" id="v9n-mE-6bm"/>
+                            <constraint firstItem="UGq-Pa-SIh" firstAttribute="top" secondItem="KPe-eW-mKb" secondAttribute="bottom" constant="8" id="waw-a9-L26"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
@@ -75,6 +116,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mungo.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="vlf-PJ-cak">
+                                <rect key="frame" x="10" y="162" width="394" height="378"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="378" id="FG3-c8-HNW"/>
+                                    <constraint firstAttribute="width" constant="394" id="vQH-cV-bAT"/>
+                                </constraints>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbG-Nl-bQn">
                                 <rect key="frame" x="34" y="99" width="346" height="55"/>
                                 <constraints>
@@ -92,27 +140,33 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mungo.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="vlf-PJ-cak">
-                                <rect key="frame" x="10" y="128" width="394" height="459"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main character Bilbo Baggins from &quot;The Hobbit&quot; and &quot;Lord of the Rings&quot; movies is a descendant of this branch." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BaN-bU-urH">
+                                <rect key="frame" x="20" y="548" width="374" height="67"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="459" id="FG3-c8-HNW"/>
-                                    <constraint firstAttribute="width" constant="394" id="vQH-cV-bAT"/>
+                                    <constraint firstAttribute="width" constant="374" id="0lQ-mG-A4Y"/>
+                                    <constraint firstAttribute="height" constant="67" id="rmH-TK-kcg"/>
                                 </constraints>
-                            </imageView>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.83859159877065337" blue="0.53268722548598268" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="rbG-Nl-bQn" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="34" id="0Ce-YF-PkA"/>
                             <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="vlf-PJ-cak" secondAttribute="trailing" constant="10" id="4xm-im-1Uw"/>
                             <constraint firstItem="vlf-PJ-cak" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="10" id="Dpc-Ic-ayI"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="BaN-bU-urH" secondAttribute="trailing" constant="20" id="EXy-IH-pvV"/>
                             <constraint firstItem="rbG-Nl-bQn" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="11" id="UyM-T4-Hye"/>
-                            <constraint firstItem="vlf-PJ-cak" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="40" id="wdP-C2-Ajk"/>
+                            <constraint firstItem="BaN-bU-urH" firstAttribute="top" secondItem="vlf-PJ-cak" secondAttribute="bottom" constant="8" id="g9R-Kf-zGg"/>
+                            <constraint firstItem="BaN-bU-urH" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="20" id="ujz-Vw-3bx"/>
+                            <constraint firstItem="vlf-PJ-cak" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="74" id="wdP-C2-Ajk"/>
                             <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="rbG-Nl-bQn" secondAttribute="trailing" constant="34" id="xBr-iX-Sof"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Mungo Baggins" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Mungo Baggins" image="smiley.fill" catalog="system" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -151,7 +205,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.70552646844185785" green="0.89936655236139584" blue="0.96130555868148804" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="1Ad-Lw-XWY" firstAttribute="top" secondItem="tWc-zV-QKd" secondAttribute="top" constant="11" id="18G-cG-ty0"/>
                             <constraint firstItem="tWc-zV-QKd" firstAttribute="trailing" secondItem="iGD-Bc-nZk" secondAttribute="trailing" constant="20" id="HzC-WI-2gY"/>
@@ -176,11 +230,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ponto.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="jzd-vt-lj9">
+                                <rect key="frame" x="10" y="139" width="394" height="408"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="408" id="V31-tP-Xo2"/>
+                                    <constraint firstAttribute="width" constant="394" id="v5U-zt-Fdy"/>
+                                </constraints>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkt-ZI-qwD">
                                 <rect key="frame" x="34" y="99" width="346" height="55"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="346" id="CJS-CP-j0F"/>
-                                    <constraint firstAttribute="height" constant="55" id="fTe-Hz-ro9"/>
+                                    <constraint firstAttribute="width" constant="346" id="inn-wI-mi8"/>
+                                    <constraint firstAttribute="height" constant="55" id="mpG-5S-KUa"/>
                                 </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Ponto Baggins Branch">
@@ -193,30 +254,36 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ponto.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="jzd-vt-lj9">
-                                <rect key="frame" x="20" y="137" width="374" height="429"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main characters Peregrin and Meri from the &quot;Lord of the Rings&quot; movies are descendants of this branch." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shp-2Z-2aP">
+                                <rect key="frame" x="20" y="547" width="374" height="67"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="374" id="lkR-kC-OJf"/>
-                                    <constraint firstAttribute="height" constant="429" id="zBi-5X-B0c"/>
+                                    <constraint firstAttribute="width" constant="374" id="5Oi-A1-qpj"/>
+                                    <constraint firstAttribute="height" constant="67" id="oDp-Ax-lly"/>
                                 </constraints>
-                            </imageView>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.94333755970001221" green="0.72209620476138814" blue="0.46722497780064598" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="jzd-vt-lj9" firstAttribute="leading" secondItem="VEP-wt-XvU" secondAttribute="leading" constant="20" id="9UE-Qz-Jg3"/>
-                            <constraint firstItem="jzd-vt-lj9" firstAttribute="top" secondItem="VEP-wt-XvU" secondAttribute="top" constant="49" id="Gbx-8d-oxv"/>
-                            <constraint firstItem="tkt-ZI-qwD" firstAttribute="top" secondItem="VEP-wt-XvU" secondAttribute="top" constant="11" id="TX6-Zr-K8r"/>
-                            <constraint firstItem="VEP-wt-XvU" firstAttribute="trailing" secondItem="jzd-vt-lj9" secondAttribute="trailing" constant="20" id="Y0x-1Y-Vlv"/>
-                            <constraint firstItem="tkt-ZI-qwD" firstAttribute="leading" secondItem="VEP-wt-XvU" secondAttribute="leading" constant="34" id="aUX-ve-49u"/>
-                            <constraint firstItem="VEP-wt-XvU" firstAttribute="trailing" secondItem="tkt-ZI-qwD" secondAttribute="trailing" constant="34" id="eOR-Ok-uT4"/>
+                            <constraint firstItem="VEP-wt-XvU" firstAttribute="trailing" secondItem="shp-2Z-2aP" secondAttribute="trailing" constant="20" id="0JP-QX-w4a"/>
+                            <constraint firstItem="tkt-ZI-qwD" firstAttribute="leading" secondItem="VEP-wt-XvU" secondAttribute="leading" constant="34" id="2wS-sE-A98"/>
+                            <constraint firstItem="VEP-wt-XvU" firstAttribute="trailing" secondItem="tkt-ZI-qwD" secondAttribute="trailing" constant="34" id="BtB-7a-MRW"/>
+                            <constraint firstItem="jzd-vt-lj9" firstAttribute="top" secondItem="VEP-wt-XvU" secondAttribute="top" constant="51" id="WfG-gZ-aUs"/>
+                            <constraint firstItem="jzd-vt-lj9" firstAttribute="leading" secondItem="VEP-wt-XvU" secondAttribute="leading" constant="10" id="Y0E-UY-7u5"/>
+                            <constraint firstItem="shp-2Z-2aP" firstAttribute="leading" secondItem="VEP-wt-XvU" secondAttribute="leading" constant="20" id="Ydv-fT-1KX"/>
+                            <constraint firstItem="shp-2Z-2aP" firstAttribute="top" secondItem="jzd-vt-lj9" secondAttribute="bottom" id="aNZ-hv-Ljq"/>
+                            <constraint firstItem="VEP-wt-XvU" firstAttribute="trailing" secondItem="jzd-vt-lj9" secondAttribute="trailing" constant="10" id="gQg-7S-xQx"/>
+                            <constraint firstItem="tkt-ZI-qwD" firstAttribute="top" secondItem="VEP-wt-XvU" secondAttribute="top" constant="11" id="u8z-wz-Hg8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VEP-wt-XvU"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Ponto Baggins" image="circle.grid.hex" catalog="system" id="ZWJ-zr-jFL"/>
+                    <tabBarItem key="tabBarItem" title="Ponto Baggins" image="smiley" catalog="system" id="ZWJ-zr-jFL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x8Z-Ej-FKs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2570" y="538"/>
+            <point key="canvasLocation" x="2569.5652173913045" y="537.05357142857144"/>
         </scene>
         <!--Lily Baggins-->
         <scene sceneID="5wG-7H-xp8">
@@ -233,7 +300,7 @@
                                     <constraint firstAttribute="width" constant="346" id="sNX-d5-2Bz"/>
                                 </constraints>
                                 <attributedString key="attributedText">
-                                    <fragment content="Mungo Baggins Branch">
+                                    <fragment content="Lily Baggins Branch">
                                         <attributes>
                                             <color key="NSColor" red="0.036463522125450787" green="0.072802047137896508" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <font key="NSFont" size="30" name="Noteworthy-Light"/>
@@ -251,7 +318,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.62062875828076924" green="0.7693973183631897" blue="0.52992468418537131" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="8Ym-bE-SI6" firstAttribute="trailing" secondItem="OOK-Ib-4lt" secondAttribute="trailing" constant="34" id="AdE-dE-L4a"/>
                             <constraint firstItem="wOU-zD-3BH" firstAttribute="top" secondItem="8Ym-bE-SI6" secondAttribute="top" constant="13" id="J6X-y8-feJ"/>
@@ -262,7 +329,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8Ym-bE-SI6"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Lily Baggins" image="square.grid.2x2" catalog="system" id="V8G-Ok-2DE"/>
+                    <tabBarItem key="tabBarItem" title="Lily Baggins" image="circle.grid.hex.fill" catalog="system" id="V8G-Ok-2DE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pab-im-sq0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -276,11 +343,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="largo.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="3IC-XO-2na">
+                                <rect key="frame" x="20" y="168" width="374" height="361"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="KPu-PF-2Qq"/>
+                                    <constraint firstAttribute="height" constant="361" id="n47-jQ-Lqa"/>
+                                </constraints>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03r-ca-gkH">
                                 <rect key="frame" x="34" y="99" width="346" height="55"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="lO3-Ga-bmA"/>
-                                    <constraint firstAttribute="width" constant="346" id="pC9-eB-Hcb"/>
+                                    <constraint firstAttribute="height" constant="55" id="8mK-ZN-tjL"/>
+                                    <constraint firstAttribute="width" constant="346" id="FV2-1a-QPk"/>
                                 </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Largo Baggins Branch">
@@ -293,22 +367,28 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="largo.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="3IC-XO-2na">
-                                <rect key="frame" x="20" y="168" width="374" height="380"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main character Frodo from &quot;The Hobbit&quot; and &quot;Lord of the Rings&quot; movies is a descendant of this branch." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exf-z8-CQs">
+                                <rect key="frame" x="20" y="537" width="374" height="67"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="374" id="QwN-za-0wz"/>
-                                    <constraint firstAttribute="height" constant="380" id="vXD-71-QS7"/>
+                                    <constraint firstAttribute="width" constant="374" id="B0M-1I-FFb"/>
+                                    <constraint firstAttribute="height" constant="67" id="Cm3-Go-Tmm"/>
                                 </constraints>
-                            </imageView>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.69320713992223892" green="0.5740771666379576" blue="0.84267407655715942" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="03r-ca-gkH" firstAttribute="leading" secondItem="bhk-4B-Jqk" secondAttribute="leading" constant="34" id="6YP-wl-RkX"/>
-                            <constraint firstItem="bhk-4B-Jqk" firstAttribute="trailing" secondItem="3IC-XO-2na" secondAttribute="trailing" constant="20" id="BTE-79-UQ9"/>
-                            <constraint firstItem="3IC-XO-2na" firstAttribute="top" secondItem="03r-ca-gkH" secondAttribute="bottom" constant="14" id="KQa-kQ-ylx"/>
-                            <constraint firstItem="3IC-XO-2na" firstAttribute="leading" secondItem="bhk-4B-Jqk" secondAttribute="leading" constant="20" id="YS1-pa-wAA"/>
-                            <constraint firstItem="03r-ca-gkH" firstAttribute="top" secondItem="bhk-4B-Jqk" secondAttribute="top" constant="11" id="Z8t-at-5xI"/>
-                            <constraint firstItem="bhk-4B-Jqk" firstAttribute="trailing" secondItem="03r-ca-gkH" secondAttribute="trailing" constant="34" id="qCv-pr-9oB"/>
+                            <constraint firstItem="03r-ca-gkH" firstAttribute="top" secondItem="bhk-4B-Jqk" secondAttribute="top" constant="11" id="Bm5-2b-zjY"/>
+                            <constraint firstItem="bhk-4B-Jqk" firstAttribute="trailing" secondItem="exf-z8-CQs" secondAttribute="trailing" constant="20" id="MRX-ap-rjx"/>
+                            <constraint firstItem="03r-ca-gkH" firstAttribute="leading" secondItem="bhk-4B-Jqk" secondAttribute="leading" constant="34" id="QqZ-di-V1w"/>
+                            <constraint firstItem="bhk-4B-Jqk" firstAttribute="trailing" secondItem="03r-ca-gkH" secondAttribute="trailing" constant="34" id="WSV-LH-Pdt"/>
+                            <constraint firstItem="3IC-XO-2na" firstAttribute="top" secondItem="03r-ca-gkH" secondAttribute="bottom" constant="14" id="XYR-Ow-Ar7"/>
+                            <constraint firstItem="exf-z8-CQs" firstAttribute="top" secondItem="3IC-XO-2na" secondAttribute="bottom" constant="8" id="ehD-8X-3Wl"/>
+                            <constraint firstItem="3IC-XO-2na" firstAttribute="leading" secondItem="bhk-4B-Jqk" secondAttribute="leading" constant="20" id="orL-Ob-rwu"/>
+                            <constraint firstItem="exf-z8-CQs" firstAttribute="leading" secondItem="bhk-4B-Jqk" secondAttribute="leading" constant="20" id="q0Y-n6-2yc"/>
+                            <constraint firstItem="bhk-4B-Jqk" firstAttribute="trailing" secondItem="3IC-XO-2na" secondAttribute="trailing" constant="20" id="zNX-l8-Lfe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bhk-4B-Jqk"/>
                     </view>
@@ -362,16 +442,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="circle.grid.hex" catalog="system" width="128" height="112"/>
         <image name="circle.grid.hex.fill" catalog="system" width="128" height="112"/>
         <image name="fb1sm.png" width="576" height="390"/>
         <image name="largo.JPG" width="423" height="388"/>
         <image name="lily.JPG" width="373" height="367.5"/>
         <image name="mungo.PNG" width="422.5" height="390"/>
         <image name="pansy.PNG" width="373.5" height="370"/>
-        <image name="ponto.JPG" width="373" height="369.5"/>
-        <image name="second" width="30" height="30"/>
+        <image name="ponto.JPG" width="422.5" height="388"/>
+        <image name="smiley" catalog="system" width="128" height="121"/>
         <image name="smiley.fill" catalog="system" width="128" height="121"/>
-        <image name="square.grid.2x2" catalog="system" width="128" height="114"/>
     </resources>
 </document>
